@@ -18,6 +18,11 @@ You can use `CocoaPods` to install `KSYProgressView`
 
 ## How to use
 
+* import 
+```Swift
+  import KSYProgressView
+```
+
 * init
 ```Swift
   let circle = KSYProgressView()
