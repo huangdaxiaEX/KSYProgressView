@@ -2,7 +2,7 @@
 🚀 A progress bar has color animation, support circle and line style.
 
 ## Results the preview
-  <img src="demoPreview.gif" alt="demo preview" />
+  <img src="gif demo.gif" alt="demo preview" />
   
 ## Requirements
 
