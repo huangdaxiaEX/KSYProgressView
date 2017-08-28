@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "huangdaxia" => "527548875@qq.com" }
   s.source       = { :git => "https://github.com/huangdaxiaEX/KSYProgressView.git", :tag => "#{s.version}" }
-  s.source_files = "KSYProgressView/Progress/*.{swift}"
+  s.source_files = "KSYProgressView/KSYProgressView/Progress/*.{swift}"
   s.ios.deployment_target = '8.0'
 end
