@@ -12,6 +12,8 @@
 		D5AEC02B1F546B2E00D2E1BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5AEC0291F546B2E00D2E1BC /* Main.storyboard */; };
 		D5AEC02D1F546B2E00D2E1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AEC02C1F546B2E00D2E1BC /* Assets.xcassets */; };
 		D5AEC0301F546B2E00D2E1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5AEC02E1F546B2E00D2E1BC /* LaunchScreen.storyboard */; };
+		D5AEC0391F546BA400D2E1BC /* KSYProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AEC0381F546BA400D2E1BC /* KSYProgressView.swift */; };
+		D5AEC03D1F546D8D00D2E1BC /* KSYProgressBarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AEC03C1F546D8D00D2E1BC /* KSYProgressBarType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D5AEC02C1F546B2E00D2E1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AEC02F1F546B2E00D2E1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5AEC0311F546B2E00D2E1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AEC0381F546BA400D2E1BC /* KSYProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSYProgressView.swift; sourceTree = "<group>"; };
+		D5AEC03C1F546D8D00D2E1BC /* KSYProgressBarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSYProgressBarType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		D5AEC0241F546B2E00D2E1BC /* KSYProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				D5AEC0371F546B8D00D2E1BC /* Progress */,
 				D5AEC0251F546B2E00D2E1BC /* AppDelegate.swift */,
 				D5AEC0271F546B2E00D2E1BC /* ViewController.swift */,
 				D5AEC0291F546B2E00D2E1BC /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				D5AEC0311F546B2E00D2E1BC /* Info.plist */,
 			);
 			path = KSYProgressView;
+			sourceTree = "<group>";
+		};
+		D5AEC0371F546B8D00D2E1BC /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				D5AEC0381F546BA400D2E1BC /* KSYProgressView.swift */,
+				D5AEC03C1F546D8D00D2E1BC /* KSYProgressBarType.swift */,
+			);
+			path = Progress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5AEC0281F546B2E00D2E1BC /* ViewController.swift in Sources */,
+				D5AEC03D1F546D8D00D2E1BC /* KSYProgressBarType.swift in Sources */,
+				D5AEC0391F546BA400D2E1BC /* KSYProgressView.swift in Sources */,
 				D5AEC0261F546B2E00D2E1BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

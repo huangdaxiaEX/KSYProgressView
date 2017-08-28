@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public enum KSYProgressBarType {
+    case circle
+    case line
+}
